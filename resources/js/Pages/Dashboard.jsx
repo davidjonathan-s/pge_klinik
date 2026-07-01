@@ -181,7 +181,7 @@ export default function Dashboard() {
                         {/* Empty State jika data kosong */}
                         {filteredMedicines.length === 0 && (
                             <div className="py-12 text-center text-gray-500">
-                                Tidak ada data obat untuk kategori ini.
+                                Tidak ada data obat untuk kategori.
                             </div>
                         )}
                     </div>
